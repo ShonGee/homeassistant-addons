@@ -16,5 +16,5 @@ echo '# Edit configuration only at the Add-on configuration tab!' >> /app/data/c
 json2yml /data/options.json >> /app/data/config.yml
 
 bashio::log.info "Image build with version $(cat /version)"
-bashio::log.info "starting original stuff..."
+bashio::log.info "starting original stuff... 123"
 npm run verbose
