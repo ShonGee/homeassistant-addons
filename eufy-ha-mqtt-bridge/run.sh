@@ -17,4 +17,4 @@ json2yml /data/options.json >> /app/data/config.yml
 
 bashio::log.info "Image build with version $(cat /version)"
 bashio::log.info "starting original stuff..."
-npm run start
+npm run dev
